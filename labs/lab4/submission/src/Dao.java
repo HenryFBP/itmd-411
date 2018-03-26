@@ -5,10 +5,9 @@ import java.util.ArrayList;
 
 public class Dao
 {
-//	private static final String URL = "jdbc:mysql://www.papademas.net:3306/411labs?autoReconnect=true&useSSL=false";
-	private static final String URL = "jdbc:mysql://127.0.0.1:3306/testdb";
-	private static final String USERNAME = "root";
-	private static final String PASSWORD = "password";
+	private static final String URL = "jdbc:mysql://www.papademas.net:3306/411labs?autoReconnect=true&useSSL=false";
+	private static final String USERNAME = "db411";
+	private static final String PASSWORD = "411";
 	public  static final String TABLE_NAME = "H_Post_tab";
 	private static final int 	MAX_RESULTS = 600;
 	

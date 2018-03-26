@@ -1,0 +1,135 @@
+We're in records, for lab3!!!
+
+
+
+
+First ten lines of unsorted datafile:
+        ID  Age  Gender     Region     Income   Married  Children       Car   Savings   Current  Mortgage       Pep
+   ID00000  666   SATAN HELLIFORNIA      -1.40       YES         1       YES        NO       YES        NO       YES
+   ID12101   48  FEMALE INNER_CITY   22467.00       YES         0       YES       YES        NO       YES       YES
+   ID12102   40    MALE       TOWN   32825.00        NO         3        NO       YES       YES        NO       YES
+   ID12103   51  FEMALE INNER_CITY   16575.40        NO         1        NO        NO       YES       YES       YES
+   ID12104   23  FEMALE       TOWN   20375.40        NO         0       YES       YES       YES       YES        NO
+   ID12105   57  FEMALE      RURAL   50576.30        NO         2       YES        NO        NO       YES        NO
+   ID12106   57  FEMALE       TOWN   37869.60       YES         3        NO       YES       YES       YES       YES
+   ID12107   22    MALE      RURAL    8877.07       YES         1       YES        NO       YES        NO       YES
+   ID12108   58    MALE       TOWN   24946.60        NO         2        NO       YES       YES        NO        NO
+   ID12109   37  FEMALE   SUBURBAN   25304.30       YES         3        NO        NO        NO        NO        NO
+
+
+
+
+
+
+Average income for all genders:
+  gender |  pop # |    avg inc
+---------------------------------------------
+    male |    299 | $  22467.00
+  female |    300 | $  16575.40
+   satan |      1 | $  20375.40
+
+
+
+
+
+
+Out of 300 people of 'female' gender, 71 of them have a mortgage and savings account.
+
+
+
+
+
+People of gender male who have a car and 1 children:          RURAL :   9       SUBURBAN :   3           TOWN :   7     INNER_CITY :  14
+
+
+
+
+
+Sorted by income: (first 10 and last 10)
+        ID  Age  Gender     Region     Income   Married  Children       Car   Savings   Current  Mortgage       Pep
+   ID00000  666   SATAN HELLIFORNIA      -1.40       YES         1       YES        NO       YES        NO       YES
+   ID12165   21    MALE       TOWN    5014.21        NO         0       YES       YES       YES       YES        NO
+   ID12679   18    MALE INNER_CITY    6294.21        NO         0        NO       YES       YES       YES        NO
+   ID12512   22    MALE INNER_CITY    7304.20        NO         0       YES       YES       YES       YES        NO
+   ID12264   21  FEMALE       TOWN    7549.38        NO         1       YES        NO       YES        NO        NO
+   ID12347   23  FEMALE INNER_CITY    7606.25        NO         3       YES        NO        NO        NO        NO
+   ID12656   20  FEMALE       TOWN    7723.93       YES         2       YES       YES       YES        NO        NO
+   ID12473   24  FEMALE INNER_CITY    7756.36        NO         0        NO        NO        NO        NO       YES
+   ID12197   22    MALE INNER_CITY    7948.62       YES         1        NO        NO        NO       YES        NO
+   ID12651   23  FEMALE INNER_CITY    8020.19       YES         1       YES        NO       YES        NO        NO
+        ID  Age  Gender     Region     Income   Married  Children       Car   Savings   Current  Mortgage       Pep
+   ID12532   64  FEMALE       TOWN   58367.30       YES         1       YES       YES       YES        NO       YES
+   ID12631   64    MALE   SUBURBAN   59175.10       YES         1        NO       YES       YES        NO       YES
+   ID12307   63    MALE INNER_CITY   59409.10        NO         0       YES       YES       YES        NO       YES
+   ID12235   66  FEMALE       TOWN   59503.80       YES         2       YES       YES       YES       YES       YES
+   ID12111   66  FEMALE       TOWN   59803.90       YES         0        NO       YES       YES        NO        NO
+   ID12605   63  FEMALE INNER_CITY   59805.60       YES         1       YES       YES       YES        NO       YES
+   ID12371   67  FEMALE   SUBURBAN   60747.50        NO         2        NO       YES       YES       YES       YES
+   ID12558   65  FEMALE INNER_CITY   61554.60       YES         0        NO       YES       YES        NO        NO
+   ID12291   67  FEMALE   SUBURBAN   63130.10       YES         2       YES       YES       YES        NO       YES
+   ID12112   52  FEMALE INNER_CITY  266222.80        NO         0       YES       YES       YES       YES        NO
+
+
+
+
+
+
+        ID  Age  Gender     Region     Income   Married  Children       Car   Savings   Current  Mortgage       Pep
+   ID12264   21  FEMALE       TOWN    7549.38        NO         1       YES        NO       YES        NO        NO
+   ID12347   23  FEMALE INNER_CITY    7606.25        NO         3       YES        NO        NO        NO        NO
+   ID12656   20  FEMALE       TOWN    7723.93       YES         2       YES       YES       YES        NO        NO
+   ID12473   24  FEMALE INNER_CITY    7756.36        NO         0        NO        NO        NO        NO       YES
+   ID12651   23  FEMALE INNER_CITY    8020.19       YES         1       YES        NO       YES        NO        NO
+   ID12256   20  FEMALE   SUBURBAN    8143.75       YES         2        NO       YES       YES        NO       YES
+   ID12401   19  FEMALE INNER_CITY    8162.42       YES         1       YES       YES       YES       YES        NO
+   ID12426   24  FEMALE       TOWN    9465.21        NO         0        NO        NO       YES        NO       YES
+   ID12697   30  FEMALE INNER_CITY    9672.25       YES         0       YES       YES       YES        NO        NO
+   ID12480   20  FEMALE INNER_CITY    9909.82       YES         3        NO        NO       YES        NO        NO
+        ID  Age  Gender     Region     Income   Married  Children       Car   Savings   Current  Mortgage       Pep
+   ID12383   64    MALE INNER_CITY   54314.50       YES         1       YES       YES        NO        NO       YES
+   ID12253   63    MALE       TOWN   54618.80       YES         2        NO       YES        NO       YES       YES
+   ID12143   67    MALE       TOWN   55716.50        NO         2       YES       YES        NO        NO       YES
+   ID12282   60    MALE      RURAL   56658.90        NO         0        NO       YES       YES        NO       YES
+   ID12155   63    MALE       TOWN   56842.50       YES         0        NO       YES       YES       YES        NO
+   ID12351   65    MALE INNER_CITY   57671.70        NO         0        NO       YES       YES       YES        NO
+   ID12121   61    MALE INNER_CITY   57880.70       YES         2        NO       YES        NO        NO       YES
+   ID12631   64    MALE   SUBURBAN   59175.10       YES         1        NO       YES       YES        NO       YES
+   ID12307   63    MALE INNER_CITY   59409.10        NO         0       YES       YES       YES        NO       YES
+   ID00000  666   SATAN HELLIFORNIA      -1.40       YES         1       YES        NO       YES        NO       YES
+
+
+
+
+
+
+        ID  Age  Gender     Region     Income   Married  Children       Car   Savings   Current  Mortgage       Pep
+   ID12196   18  FEMALE INNER_CITY    9990.11       YES         0        NO       YES       YES        NO        NO
+   ID12432   18  FEMALE INNER_CITY   11601.40       YES         2        NO       YES       YES       YES        NO
+   ID12539   18  FEMALE   SUBURBAN   12117.30       YES         1        NO        NO       YES        NO        NO
+   ID12200   18  FEMALE      RURAL   15348.90       YES         0       YES        NO       YES        NO        NO
+   ID12382   18  FEMALE INNER_CITY   15610.20       YES         0        NO       YES       YES        NO        NO
+   ID12414   18  FEMALE      RURAL   16109.90        NO         2       YES       YES       YES        NO        NO
+   ID12679   18    MALE INNER_CITY    6294.21        NO         0        NO       YES       YES       YES        NO
+   ID12398   18    MALE      RURAL    8639.24       YES         2        NO        NO        NO        NO        NO
+   ID12376   18    MALE      RURAL    9362.58       YES         0       YES        NO       YES       YES       YES
+   ID12559   18    MALE   SUBURBAN   13700.20        NO         1        NO       YES       YES        NO        NO
+        ID  Age  Gender     Region     Income   Married  Children       Car   Savings   Current  Mortgage       Pep
+   ID12475   67  FEMALE   SUBURBAN   47198.60       YES         2        NO       YES       YES        NO       YES
+   ID12405   67  FEMALE      RURAL   57398.10        NO         3        NO       YES       YES        NO       YES
+   ID12513   67  FEMALE INNER_CITY   58092.00        NO         2       YES       YES       YES        NO       YES
+   ID12371   67  FEMALE   SUBURBAN   60747.50        NO         2        NO       YES       YES       YES       YES
+   ID12291   67  FEMALE   SUBURBAN   63130.10       YES         2       YES       YES       YES        NO       YES
+   ID12343   67    MALE INNER_CITY   35263.50       YES         1       YES       YES       YES        NO       YES
+   ID12309   67    MALE INNER_CITY   39666.60       YES         0       YES       YES       YES        NO        NO
+   ID12327   67    MALE INNER_CITY   50474.60       YES         2       YES       YES       YES        NO       YES
+   ID12143   67    MALE       TOWN   55716.50        NO         2       YES       YES        NO        NO       YES
+   ID00000  666   SATAN HELLIFORNIA      -1.40       YES         1       YES        NO       YES        NO       YES
+
+
+
+
+
+
+Cur dt=2017/11/07 21:21:55
+Programmed by Henry Post.
+Lab 3.
